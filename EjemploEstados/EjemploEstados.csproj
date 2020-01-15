@@ -44,9 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alarma.cs" />
-    <Compile Include="EstadoAlarmaActiva.cs" />
-    <Compile Include="EstadoAlarmaInactiva.cs" />
-    <Compile Include="IEstadoAlarma.cs" />
+    <Compile Include="Estados\EstadoAlarmaActiva.cs" />
+    <Compile Include="Estados\EstadoAlarmaInactiva.cs" />
+    <Compile Include="Estados\IEstadoAlarma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -18,10 +18,11 @@ namespace EjemploEstados
                 Console.WriteLine("1. Activar Alarma\n2. Desactivar Alarma");
 
                 opt = Console.ReadLine();
-                if(opt == "1")
+                if (opt == "1")
                 {
                     alarma.Activar();
-                } else
+                }
+                else
                 {
                     alarma.Desactivar();
                 }
